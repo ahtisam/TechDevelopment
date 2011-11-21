@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="80F8C718-70E0-488B-B4E1-C3FBB0AD3558" ModuleId="TrendITech.Core" />
+  <Module PersistentId="240CD456-F90C-44DC-AC70-B202CC481ACF" ModuleId="TrendITech.Data" />
+  <Module PersistentId="4A97DEF2-DA91-479B-AA79-CE998F67BCC0" ModuleId="TrendITech.UI" />
+</Modules>
