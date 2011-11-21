@@ -1,0 +1,19 @@
+/*a tag button css3 pie #2*/
+.buttonCss3_pie{font-family:Georgia, Arial, Sans;display:inline-block;color:#fff;padding:5px;cursor:pointer;position:relative;
+-moz-border-radius: 4px;
+-webkit-border-radius:4px;
+border-radius: 4px;
+behavior: url(js/pie/PIE.htc);
+}
+
+.buttonCss3_pie.pinkBtn{background:#f66087 url(../../furniture/shared/pinkBtnBack.png) left bottom repeat-x;border:1px solid #c64063;}
+.buttonCss3_pie.blueBtn{background:#63b9f9 url(../../furniture/shared/blueBtnBack.png) left bottom repeat-x;border:1px solid #408ec7;}
+
+
+	
+/*a tag button css 3*/
+.buttonCss3{font-family:Georgia, Arial, Sans;display:inline-block;background:#f66087 url(../../furniture/shared/pinkBtnBack.png) left bottom repeat-x;border:1px solid #c64063;color:#fff;padding:5px;cursor:pointer;
+-moz-border-radius: 4px;
+-webkit-border-radius:4px;
+border-radius: 4px;
+}

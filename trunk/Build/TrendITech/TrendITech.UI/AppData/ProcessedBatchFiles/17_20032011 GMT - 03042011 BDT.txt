@@ -1,0 +1,3 @@
+settlement-id	settlement-start-date	settlement-end-date	deposit-date	total-amount	currency	transaction-type	order-id	merchant-order-id	adjustment-id	shipment-id	marketplace-name	amount-type	amount-description	amount	fulfillment-id	posted-date	posted-date-time	order-item-code	merchant-order-item-id	merchant-adjustment-item-id	sku	quantity-purchased
+6128779562	20/03/2011 01:44:00 GMT	03/04/2011 01:46:41 GMT	05/04/2011 01:46:41 GMT	-25.00	GBP																	
+6128779562						other-transaction						other-transaction	Subscription Fee	-25.00		23/03/2011	23/03/2011 01:45:35 GMT					

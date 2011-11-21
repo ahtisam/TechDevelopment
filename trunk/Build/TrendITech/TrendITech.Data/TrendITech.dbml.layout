@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.75, 15.75" name="TrendITech">
+  <DataContextMoniker Name="/TrendITechDataContext" />
+  <nestedChildShapes>
+    <classShape Id="64cde3d0-815b-414c-b565-2d701de0463c" absoluteBounds="0.75, 9.75, 2, 5.8092268880208309">
+      <DataClassMoniker Name="/TrendITechDataContext/amazon_transactions_v2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="745b2165-6c09-47b6-b508-81e643bee3e0" absoluteBounds="0.765, 10.21, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2122cb3-66a4-496a-9bf8-dc804dbf0c89" absoluteBounds="3.5, 1, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/TrendITechDataContext/vatsubmission_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c168649e-0a45-454b-9f2c-fff62cef2c49" absoluteBounds="3.515, 1.46, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d35a254c-b656-410e-99a5-ceae74ebdc9d" absoluteBounds="0.75, 6.375, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/TrendITechDataContext/category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1878267a-4ab8-4710-b19c-3d3cbb28e71c" absoluteBounds="0.765, 6.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50a82b4c-6115-47f9-8dd9-37d5fc527d34" absoluteBounds="3.75, 11.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/TrendITechDataContext/inventory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51dbe0ce-ca8f-44c0-bf06-f963af095e87" absoluteBounds="3.765, 12.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2be6e994-50e9-415f-b9ba-567b4ac49bbe" absoluteBounds="9.5, 8, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/TrendITechDataContext/menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd6faccc-e998-41aa-b29c-13bd19fb9c92" absoluteBounds="9.515, 8.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="52f16397-6bda-4c54-8c3f-b62f8e7cb74b" absoluteBounds="6.75, 8.25, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/TrendITechDataContext/menutype" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90bb5379-ce24-458c-ac31-54b9aa37466f" absoluteBounds="6.765, 8.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5d9da3a-4b7d-4056-aa75-ae7537375af3" absoluteBounds="9.5, 2, 2, 3.1170068359375009">
+      <DataClassMoniker Name="/TrendITechDataContext/order_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a6d9121-f3d0-489d-8151-c0d47db6c92a" absoluteBounds="9.515, 2.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d92d212b-4e1b-4bc1-b367-f17d710a62ce" absoluteBounds="6.75, 1.125, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/TrendITechDataContext/order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34bfab14-e576-403b-a698-eb12b2320ed2" absoluteBounds="6.765, 1.585, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0d474ed-1f11-45ed-9084-3e71f9a8f21c" absoluteBounds="3.5, 6, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/TrendITechDataContext/product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ef5068b6-eb59-4679-bdd8-7296f26dfbe1" absoluteBounds="3.515, 6.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71fdd33b-1e4b-4dd6-bc10-244c938e7af0" absoluteBounds="6.75, 11.75, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/TrendITechDataContext/tempvat" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c3ce81c-47d3-407f-b332-ccf6e9224345" absoluteBounds="6.765, 12.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ebd713b-9412-418e-a79b-0959ca0d0a11" absoluteBounds="0.75, 1, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/TrendITechDataContext/vatsubmission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65ce8f07-3ece-4950-955e-68d4d4bf074a" absoluteBounds="0.765, 1.46, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 9.13544840494792); (9.5 : 9.13544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TrendITechDataContext/menutype/menutype_menu" />
+      <nodes>
+        <classShapeMoniker Id="52f16397-6bda-4c54-8c3f-b62f8e7cb74b" />
+        <classShapeMoniker Id="2be6e994-50e9-415f-b9ba-567b4ac49bbe" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 3.55850341796875); (9.5 : 3.55850341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TrendITechDataContext/order/order_order_detail" />
+      <nodes>
+        <classShapeMoniker Id="d92d212b-4e1b-4bc1-b367-f17d710a62ce" />
+        <classShapeMoniker Id="c5d9da3a-4b7d-4056-aa75-ae7537375af3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.26044840494792); (3.5 : 7.26044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TrendITechDataContext/category/category_product" />
+      <nodes>
+        <classShapeMoniker Id="d35a254c-b656-410e-99a5-ceae74ebdc9d" />
+        <classShapeMoniker Id="a0d474ed-1f11-45ed-9084-3e71f9a8f21c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.94310628255208); (3.5 : 2.94310628255208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TrendITechDataContext/vatsubmission/vatsubmission_vatsubmission_detail" />
+      <nodes>
+        <classShapeMoniker Id="4ebd713b-9412-418e-a79b-0959ca0d0a11" />
+        <classShapeMoniker Id="f2122cb3-66a4-496a-9bf8-dc804dbf0c89" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,18 @@
+/*structure*/
+p.formControl {margin:10px 0;width:100%;}
+	p.formControl label{display:block;width:30%;float:left;}
+	p.formControl input{display:block;width:60%;float:right;}
+	p.formControl textarea{display:block;width:60%;float:right;}	
+	p.formControl input.button{width:20%;float:none;}
+	p.formControl select{display:block;width:60%;float:right;}
+	p.formControl select{display:block;width:60%;float:right;}
+
+	p.formControl.inputCheckSingle label{float:right;width:95%;}
+	p.formControl.inputCheckSingle input{float:left;width:20px;}
+
+
+/*style*/
+
+
+
+

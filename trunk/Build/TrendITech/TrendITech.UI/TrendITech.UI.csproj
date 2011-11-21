@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A97DEF2-DA91-479B-AA79-CE998F67BCC0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrendITech.UI</RootNamespace>
+    <AssemblyName>TrendITech.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.50508.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\base.css" />
+    <Content Include="css\components\buttons.css" />
+    <Content Include="css\components\commentsPanel.css" />
+    <Content Include="css\components\forms.css" />
+    <Content Include="css\components\infoPanel.css" />
+    <Content Include="css\components\loginPanel.css" />
+    <Content Include="css\components\mainNav.css" />
+    <Content Include="css\components\quickSearchPanel.css" />
+    <Content Include="css\components\relatedInfoPanel.css" />
+    <Content Include="css\components\subscribeForm.css" />
+    <Content Include="css\components\tabs.css" />
+    <Content Include="css\components\twitterFeed.css" />
+    <Content Include="css\components\videoPanel.css" />
+    <Content Include="css\curd_form.css" />
+    <Content Include="css\structure.css" />
+    <Content Include="css\style.css" />
+    <Content Include="js\fancybox\blank.gif" />
+    <Content Include="js\fancybox\fancybox-x.png" />
+    <Content Include="js\fancybox\fancybox-y.png" />
+    <Content Include="js\fancybox\fancybox.png" />
+    <Content Include="js\fancybox\fancy_close.png" />
+    <Content Include="js\fancybox\fancy_loading.png" />
+    <Content Include="js\fancybox\fancy_nav_left.png" />
+    <Content Include="js\fancybox\fancy_nav_right.png" />
+    <Content Include="js\fancybox\fancy_shadow_e.png" />
+    <Content Include="js\fancybox\fancy_shadow_n.png" />
+    <Content Include="js\fancybox\fancy_shadow_ne.png" />
+    <Content Include="js\fancybox\fancy_shadow_nw.png" />
+    <Content Include="js\fancybox\fancy_shadow_s.png" />
+    <Content Include="js\fancybox\fancy_shadow_se.png" />
+    <Content Include="js\fancybox\fancy_shadow_sw.png" />
+    <Content Include="js\fancybox\fancy_shadow_w.png" />
+    <Content Include="js\fancybox\fancy_title_left.png" />
+    <Content Include="js\fancybox\fancy_title_main.png" />
+    <Content Include="js\fancybox\fancy_title_over.png" />
+    <Content Include="js\fancybox\fancy_title_right.png" />
+    <Content Include="js\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="js\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="js\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="js\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="js\fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="js\fancybox\style.css" />
+    <Content Include="js\tablesorter\jquery.tablesorter.js" />
+    <Content Include="js\tablesorter\themes\blue\asc.gif" />
+    <Content Include="js\tablesorter\themes\blue\bg.gif" />
+    <Content Include="js\tablesorter\themes\blue\desc.gif" />
+    <Content Include="js\tablesorter\themes\blue\style.css" />
+    <Content Include="js\tablesorter\themes\green\asc.png" />
+    <Content Include="js\tablesorter\themes\green\bg.png" />
+    <Content Include="js\tablesorter\themes\green\desc.png" />
+    <Content Include="js\tablesorter\themes\green\style.css" />
+    <Content Include="css\tipography.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="furniture\shared\cancel.png" />
+    <Content Include="furniture\shared\delete.png" />
+    <Content Include="furniture\shared\done.png" />
+    <Content Include="furniture\shared\generatorphp-thumb.gif" />
+    <Content Include="furniture\shared\ok.png" />
+    <Content Include="furniture\shared\reload.png" />
+    <Content Include="furniture\shared\save.png" />
+    <Content Include="furniture\shared\thankyou.png" />
+    <Content Include="furniture\shared\update.png" />
+    <Content Include="js\jquery-1.6.2.min.js" />
+    <Content Include="js\jquery.highlight.js" />
+    <Content Include="usercontrols\curd\Category.ascx" />
+    <Content Include="usercontrols\curd\Inventory.ascx" />
+    <Content Include="usercontrols\curd\Menu.ascx" />
+    <Content Include="usercontrols\curd\MenuTypes.ascx" />
+    <Content Include="usercontrols\curd\Order.ascx" />
+    <Content Include="usercontrols\curd\Products.ascx" />
+    <Content Include="usercontrols\batchFiles\UploadAmazonFile.ascx" />
+    <Content Include="usercontrols\reporting\VATCalculation.ascx" />
+    <Content Include="usercontrols\utilities\LoadAppDataFile.ascx" />
+    <Content Include="usercontrols\utilities\UploadFiles.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usercontrols\curd\Category.ascx.cs">
+      <DependentUpon>Category.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\curd\Category.ascx.designer.cs">
+      <DependentUpon>Category.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\curd\Inventory.ascx.cs">
+      <DependentUpon>Inventory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\curd\Inventory.ascx.designer.cs">
+      <DependentUpon>Inventory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\curd\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\curd\Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\curd\MenuTypes.ascx.cs">
+      <DependentUpon>MenuTypes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\curd\MenuTypes.ascx.designer.cs">
+      <DependentUpon>MenuTypes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\curd\Order.ascx.cs">
+      <DependentUpon>Order.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\curd\Order.ascx.designer.cs">
+      <DependentUpon>Order.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\curd\Products.ascx.cs">
+      <DependentUpon>Products.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\curd\Products.ascx.designer.cs">
+      <DependentUpon>Products.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\batchFiles\UploadAmazonFile.ascx.cs">
+      <DependentUpon>UploadAmazonFile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\batchFiles\UploadAmazonFile.ascx.designer.cs">
+      <DependentUpon>UploadAmazonFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\reporting\VATCalculation.ascx.cs">
+      <DependentUpon>VATCalculation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\reporting\VATCalculation.ascx.designer.cs">
+      <DependentUpon>VATCalculation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\utilities\LoadAppDataFile.ascx.cs">
+      <DependentUpon>LoadAppDataFile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\utilities\LoadAppDataFile.ascx.designer.cs">
+      <DependentUpon>LoadAppDataFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\utilities\UploadFiles.ascx.cs">
+      <DependentUpon>UploadFiles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\utilities\UploadFiles.ascx.designer.cs">
+      <DependentUpon>UploadFiles.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrendITech.Core\TrendITech.Core.csproj">
+      <Project>{80F8C718-70E0-488B-B4E1-C3FBB0AD3558}</Project>
+      <Name>TrendITech.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppData\ProcessedBatchFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\tablesorter\themes\blue\blue.zip" />
+    <Content Include="js\tablesorter\themes\green\green.zip" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60817</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

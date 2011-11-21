@@ -1,0 +1,12 @@
+.infoPanel{padding:10px;background:#fff;margin-bottom:10px;width:596px;}
+.infoPanel  h3{font-size:1.3em;}
+.infoPanel img {border:1px solid #e7e7e7;float:left;}
+.infoPanel .infoArea {float:left;width:45%;margin-left:15px;}
+.infoPanel .infoArea h3{border:none;}
+.infoPanel .infoArea h4{font-size:0.9em;font-weight:bold;}
+.infoPanel .useActions {clear:both;width:100%;}
+.infoPanel .useActions .labels{ background: url(/furniture/shared/tagsIcon.png) left center no-repeat;float: left;margin: 5px 0 12px;padding: 10px 0 0 30px;width: 100%;}
+.infoPanel .useActions .labels li{float:left;margin-right: 10px;list-style-image:none !important;}
+.infoPanel .useActions .labels li a{color: #76D79F;}
+.infoPanel .useActions .socialNetworkActions{float:left;width:70%;background:#ccc;}
+.infoPanel .useActions .button{float:right;}

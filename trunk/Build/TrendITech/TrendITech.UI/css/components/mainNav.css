@@ -1,0 +1,12 @@
+/*
+specific style for the component
+*/
+
+#mainNav ul {width:100%;}
+	#mainNav ul li{float:left; margin-right:20px;}
+		#mainNav ul li a{color:#666;font-size:0.9em;font-weight:bold;}
+		#mainNav ul li a.selected{color:#6ad99e;}
+		#mainNav ul li a:hover{color:#6ad99e;}
+
+
+

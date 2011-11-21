@@ -1,0 +1,719 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/d:Interface/f:ITempVatCalcRepository.cs" caret="321" fromTop="14" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:CategoryRepository.cs" caret="3314" fromTop="29" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:Category.cs" caret="858" fromTop="26" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/f:Web.config" caret="454" fromTop="10" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Utilities/f:Csv.cs" caret="2040" fromTop="8" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:MenuTypes.cs" caret="208" fromTop="9" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/d:Interface/f:ICategoryRepository.cs" caret="294" fromTop="9" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:curd/f:Order.ascx" caret="3514" fromTop="15" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/d:Interface/f:IVATSubmissionDetailRepository.cs" caret="277" fromTop="9" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/d:Interface/f:IVATSubmissionRepository.cs" caret="323" fromTop="13" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:VATSubmissionDetailRepository.cs" caret="743" fromTop="17" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:batchFiles/f:UploadAmazonFile.ascx.cs" caret="7968" fromTop="27" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/f:Default.aspx" caret="4180" fromTop="23" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:Inventory.cs" caret="713" fromTop="22" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:AmazonTransactionsV2.cs" caret="790" fromTop="0" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/d:Interface/f:IProductsRepository.cs" caret="0" fromTop="0" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:Products.cs" caret="1667" fromTop="21" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:ProductsRepository.cs" caret="4955" fromTop="25" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:TempVatCalc.cs" caret="1393" fromTop="25" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="11786" fromTop="15" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:TempVatCalcRepository.cs" caret="3080" fromTop="12" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:reporting/f:VATCalculation.ascx" caret="0" fromTop="0" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:VATSubmissionDetail.cs" caret="896" fromTop="11" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:VATSubmission.cs" caret="1622" fromTop="28" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:VATSubmissionRepository.cs" caret="1039" fromTop="24" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:reporting/f:VATCalculation.ascx.cs" caret="4433" fromTop="10" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:batchFiles/f:UploadAmazonFile.ascx" caret="2347" fromTop="26" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:utilities/f:LoadAppDataFile.ascx" caret="0" fromTop="0" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:utilities/f:UploadFiles.ascx" caret="1445" fromTop="23" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:utilities/f:UploadFiles.ascx.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:ProductsRepository.cs" caret="4706" fromTop="23" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:Products.cs" caret="1667" fromTop="21" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:ProductsRepository.cs" caret="2039" fromTop="13" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="20" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="11" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="20" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="32" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="30" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:TempVatCalc.cs" caret="1393" fromTop="25" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:reporting/f:VATCalculation.ascx.cs" caret="7654" fromTop="9" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="27" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="25" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="6851" fromTop="14" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="6445" fromTop="7" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="14" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="24" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="17" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="3" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13554" fromTop="7" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="13699" fromTop="30" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="8783" fromTop="4" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="11785" fromTop="8" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="11928" fromTop="32" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:AmazonTransactionsV2Repository.cs" caret="10584" fromTop="6" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Repository/f:TempVatCalcRepository.cs" caret="3063" fromTop="11" />
+      <File id="4A97DEF2-DA91-479B-AA79-CE998F67BCC0/d:usercontrols/d:reporting/f:VATCalculation.ascx.cs" caret="4411" fromTop="28" />
+      <File id="80F8C718-70E0-488B-B4E1-C3FBB0AD3558/d:Entities/f:VATSubmission.cs" caret="1622" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="8" />
+      <Item value="void" priority="3" />
+      <Item value="static" priority="1" />
+      <Item value="MyFileName" priority="0" />
+      <Item value="true" priority="21" />
+      <Item value="gvCSV" priority="1" />
+      <Item value="dt" priority="2" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="return" priority="13" />
+      <Item value="Load" priority="1" />
+      <Item value="LoadControl`0" priority="0" />
+      <Item value="out" priority="6" />
+      <Item value="EnvironmentVariableTarget`0" priority="2" />
+      <Item value="amazonTransactions" priority="1" />
+      <Item value="new" priority="20" />
+      <Item value="AmazonTransactionsV2Repository" priority="0" />
+      <Item value="IEnumerable" priority="10" />
+      <Item value="if" priority="27" />
+      <Item value="value" priority="2" />
+      <Item value="DateTime`0" priority="12" />
+      <Item value="Repository" priority="4" />
+      <Item value="System" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="Mapping" priority="0" />
+      <Item value="Association" priority="1" />
+      <Item value="public" priority="6" />
+      <Item value="IList" priority="0" />
+      <Item value="OrderItemsDetail`0" priority="1" />
+      <Item value="ThisKey" priority="1" />
+      <Item value="OutOfMemoryException`0" priority="0" />
+      <Item value="int" priority="19" />
+      <Item value="Base" priority="4" />
+      <Item value="Products`0" priority="8" />
+      <Item value="Table" priority="2" />
+      <Item value="_table" priority="5" />
+      <Item value="_dc" priority="1" />
+      <Item value="TInterfaceType`0" priority="1" />
+      <Item value="where" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="createObject" priority="2" />
+      <Item value="false" priority="12" />
+      <Item value="id" priority="7" />
+      <Item value="t" priority="49" />
+      <Item value="string" priority="10" />
+      <Item value="IProductsRepostory`0" priority="0" />
+      <Item value="ProductsRepository`0" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="Interface" priority="0" />
+      <Item value="try" priority="5" />
+      <Item value="deleteObject" priority="0" />
+      <Item value="existsObject" priority="3" />
+      <Item value="var" priority="14" />
+      <Item value="exists" priority="0" />
+      <Item value="else" priority="4" />
+      <Item value="GetAll`0" priority="0" />
+      <Item value="onlyActive" priority="3" />
+      <Item value="modelNo" priority="1" />
+      <Item value="sku" priority="0" />
+      <Item value="Category`0" priority="3" />
+      <Item value="category" priority="3" />
+      <Item value="Category" priority="0" />
+      <Item value="grdviewProducts" priority="0" />
+      <Item value="result" priority="2" />
+      <Item value="OtherKey" priority="1" />
+      <Item value="Order`0" priority="2" />
+      <Item value="IsPrimaryKey" priority="0" />
+      <Item value="MultiLine" priority="2" />
+      <Item value="CURD_Products.ascx.cs" priority="0" />
+      <Item value="furniture" priority="0" />
+      <Item value="shared" priority="1" />
+      <Item value="save.png" priority="0" />
+      <Item value="reload.png" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="LoadCategories`0" priority="0" />
+      <Item value="localCate" priority="1" />
+      <Item value="txtCreateName" priority="0" />
+      <Item value="chkCreateActive" priority="0" />
+      <Item value="Page" priority="0" />
+      <Item value="cateRep" priority="1" />
+      <Item value="short" priority="0" />
+      <Item value="VirtualPathUtility`0" priority="0" />
+      <Item value="literalMsg" priority="0" />
+      <Item value="categories" priority="1" />
+      <Item value="GridView`0" priority="1" />
+      <Item value="IsPostBack" priority="2" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ok.png" priority="0" />
+      <Item value="DataBind`0" priority="0" />
+      <Item value="Container" priority="2" />
+      <Item value="localProducts" priority="0" />
+      <Item value="ddlCategory" priority="2" />
+      <Item value="productRep" priority="0" />
+      <Item value="productses" priority="0" />
+      <Item value="foreach" priority="5" />
+      <Item value="ListItem" priority="2" />
+      <Item value="Menu`0" priority="0" />
+      <Item value="TrendITech" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="Entities" priority="3" />
+      <Item value="ddlMenuType" priority="2" />
+      <Item value="ddlParent" priority="1" />
+      <Item value="txtDesc" priority="0" />
+      <Item value="chkActive" priority="1" />
+      <Item value="_menuRep" priority="1" />
+      <Item value="menus" priority="0" />
+      <Item value="_menuTypeRep" priority="0" />
+      <Item value="menuTypeses" priority="0" />
+      <Item value="LoadMenus`0" priority="0" />
+      <Item value="LoadMenuTypes`0" priority="0" />
+      <Item value="AutoSync" priority="1" />
+      <Item value="AutoSync`0" priority="1" />
+      <Item value="IsDbGenerated" priority="1" />
+      <Item value="parentItems" priority="0" />
+      <Item value="MenuTypes`0" priority="0" />
+      <Item value="txtModelNo" priority="0" />
+      <Item value="inventories" priority="0" />
+      <Item value="float" priority="2" />
+      <Item value="double" priority="7" />
+      <Item value="Inventory`0" priority="1" />
+      <Item value="repItemCollection" priority="7" />
+      <Item value="Image`0" priority="3" />
+      <Item value="Button`0" priority="3" />
+      <Item value="TextBox`0" priority="5" />
+      <Item value="btnAdd" priority="0" />
+      <Item value="btnRemove" priority="0" />
+      <Item value="txtPrice" priority="1" />
+      <Item value="txtModel" priority="0" />
+      <Item value="txtQty" priority="2" />
+      <Item value="txtRefNote" priority="0" />
+      <Item value="DropDownList`0" priority="2" />
+      <Item value="ddlModel" priority="3" />
+      <Item value="ddl" priority="0" />
+      <Item value="IEnumerator" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="products" priority="2" />
+      <Item value="LoadModel`0" priority="0" />
+      <Item value="Img" priority="0" />
+      <Item value="txtCost" priority="0" />
+      <Item value="txtComment" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="prop" priority="1" />
+      <Item value="dataSource" priority="1" />
+      <Item value="Serializable" priority="0" />
+      <Item value="count" priority="4" />
+      <Item value="lstDataSource" priority="0" />
+      <Item value="DataSet`0" priority="0" />
+      <Item value="icount" priority="1" />
+      <Item value="orderDetailsDse" priority="2" />
+      <Item value="bool" priority="1" />
+      <Item value="IsActive" priority="2" />
+      <Item value="e" priority="2" />
+      <Item value="ID" priority="4" />
+      <Item value="Id" priority="1" />
+      <Item value="HiddenField`0" priority="1" />
+      <Item value="classID" priority="1" />
+      <Item value="img" priority="1" />
+      <Item value="product" priority="1" />
+      <Item value="_invRep" priority="0" />
+      <Item value="_inventory" priority="0" />
+      <Item value="cost" priority="0" />
+      <Item value="Convert`0" priority="8" />
+      <Item value="as" priority="1" />
+      <Item value="HyperLink`0" priority="0" />
+      <Item value="smallImg" priority="1" />
+      <Item value="HtmlAnchor`0" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="script" priority="0" />
+      <Item value="stringBuilder" priority="2" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="v2" priority="14" />
+      <Item value="InsertedRecordsDetails" priority="0" />
+      <Item value="hdnfldSelectFilePath" priority="0" />
+      <Item value="AmazonTransactionsV2`0" priority="0" />
+      <Item value="startDate" priority="0" />
+      <Item value="endDate" priority="1" />
+      <Item value="from" priority="1" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="SectionInformation`0" priority="0" />
+      <Item value="_Transactions" priority="1" />
+      <Item value="group" priority="0" />
+      <Item value="by" priority="0" />
+      <Item value="into" priority="0" />
+      <Item value="let" priority="0" />
+      <Item value="g" priority="1" />
+      <Item value="select" priority="0" />
+      <Item value="GetTransactionByAmountDescAndDates`0" priority="0" />
+      <Item value="GetTransactionByTransactionType`0" priority="0" />
+      <Item value="AmazonTransactionsV2Repository`0" priority="0" />
+      <Item value="Eval`0" priority="1" />
+      <Item value="DataBinder`0" priority="0" />
+      <Item value="ITempVATCalc`0" priority="0" />
+      <Item value="ITempVatCalcRepository`0" priority="0" />
+      <Item value="TempVatCalc`0" priority="8" />
+      <Item value="settlementID" priority="2" />
+      <Item value="orderID" priority="1" />
+      <Item value="fullfilmentBy" priority="2" />
+      <Item value="transactionType" priority="5" />
+      <Item value="purrchasedDate" priority="1" />
+      <Item value="itemFee" priority="4" />
+      <Item value="totalAmt" priority="5" />
+      <Item value="itemPrice" priority="3" />
+      <Item value="TempVatCalcRepository`0" priority="0" />
+      <Item value="vatCalcRepository" priority="0" />
+      <Item value="vatCalc" priority="0" />
+      <Item value="TempVatCalc" priority="0" />
+      <Item value="Settlementid" priority="0" />
+      <Item value="Transactiontype" priority="0" />
+      <Item value="Orderid" priority="0" />
+      <Item value="Itemprice" priority="0" />
+      <Item value="Total" priority="0" />
+      <Item value="Fullfilmentby" priority="0" />
+      <Item value="Purchaseddate" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="break" priority="1" />
+      <Item value="Math`0" priority="2" />
+      <Item value="CreatedDate" priority="1" />
+      <Item value="txtEndDate" priority="0" />
+      <Item value="Configuration`0" priority="0" />
+      <Item value="VatAmt" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="vatPercentaage" priority="1" />
+      <Item value="lstVAT" priority="2" />
+      <Item value="Label`0" priority="0" />
+      <Item value="TotalPrice" priority="2" />
+      <Item value="lblItemPrice" priority="0" />
+      <Item value="TotalFee" priority="0" />
+      <Item value="TotalAmount" priority="3" />
+      <Item value="TotalVAT" priority="1" />
+      <Item value="lblTotalPrice" priority="1" />
+      <Item value="lblTotalAmt" priority="1" />
+      <Item value="NetAmount" priority="3" />
+      <Item value="txtVATPercentage" priority="1" />
+      <Item value="RangeValidator1" priority="1" />
+      <Item value="amazonFee" priority="0" />
+      <Item value="ReclaimVatAmt" priority="0" />
+      <Item value="lblReclaimVAT" priority="1" />
+      <Item value="VATSubmission`0" priority="1" />
+      <Item value="VATSubmissionDetail`0" priority="2" />
+      <Item value="VATSubmissionDetailRepository`0" priority="0" />
+      <Item value="_submissionDetailRepository" priority="1" />
+      <Item value="_submissionRepository" priority="0" />
+      <Item value="vatSubmission" priority="2" />
+      <Item value="StartDate" priority="0" />
+      <Item value="txtStartDate" priority="0" />
+      <Item value="txtStartDate_CalendarExtender" priority="0" />
+      <Item value="VatPercentage" priority="0" />
+      <Item value="TotalSaleprice" priority="0" />
+      <Item value="lblTotalFee" priority="0" />
+      <Item value="lblTotalVAT" priority="0" />
+      <Item value="VatAmount" priority="1" />
+      <Item value="lst" priority="0" />
+      <Item value="lvi" priority="0" />
+      <Item value="_tempVatCalc" priority="0" />
+      <Item value="vc" priority="1" />
+      <Item value="vatSubmissionDetail" priority="0" />
+      <Item value="VatSubmissionfkid" priority="0" />
+      <Item value="TotalItemSold" priority="2" />
+      <Item value="TotalItemReclaim" priority="2" />
+      <Item value="lblTotalItemReclaim" priority="1" />
+      <Item value="VatPaidToHMRevenue" priority="0" />
+      <Item value="allTransactions" priority="1" />
+      <Item value="PurchaseCost" priority="2" />
+      <Item value="productsRepository" priority="0" />
+      <Item value="ProductsRepository" priority="0" />
+      <Item value="vatAmt" priority="0" />
+      <Item value="purchasedCost" priority="1" />
+      <Item value="TotalNetAmount" priority="1" />
+      <Item value="TotalPurchasedCost" priority="1" />
+      <Item value="lblItemPurchasedCost" priority="0" />
+      <Item value="TotalSalePrice" priority="0" />
+      <Item value="lblTotalPurchasedCost" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="AutoGenerateColumns" priority="0" />
+      <Item value="DataSource" priority="3" />
+      <Item value="DataBind`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="TableName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Concrete.AmazonTransactionsV2Repository">
+      <Item value="LoadTransactions`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.AmazonTransactionsV2">
+      <Item value="Id" priority="0" />
+      <Item value="Settlementid" priority="5" />
+      <Item value="Posteddate" priority="6" />
+      <Item value="Orderid" priority="9" />
+      <Item value="Amount" priority="3" />
+      <Item value="Transactiontype" priority="7" />
+      <Item value="Amounttype" priority="4" />
+      <Item value="Fulfillmentid" priority="2" />
+      <Item value="Depositdate" priority="0" />
+      <Item value="Amountdescription" priority="1" />
+      <Item value="CreatedDate" priority="1" />
+      <Item value="Sku" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.DataContext">
+      <Item value="GetTable`0" priority="0" />
+      <Item value="SubmitChanges`0" priority="0" />
+      <Item value="ExecuteQuery`0" priority="0" />
+      <Item value="ExecuteCommand`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="Select`2" priority="4" />
+      <Item value="SingleOrDefault`1" priority="1" />
+      <Item value="InsertOnSubmit`0" priority="1" />
+      <Item value="DeleteOnSubmit`0" priority="0" />
+      <Item value="SelectMany`3" priority="0" />
+      <Item value="Where`1" priority="2" />
+      <Item value="OrderBy`2" priority="0" />
+      <Item value="GroupJoin`4" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.Products">
+      <Item value="ModelNo" priority="8" />
+      <Item value="PkId" priority="2" />
+      <Item value="Name" priority="1" />
+      <Item value="Category" priority="3" />
+      <Item value="PicUrl" priority="3" />
+      <Item value="AmazonSku" priority="1" />
+      <Item value="CategoryID" priority="0" />
+      <Item value="CreatedDate" priority="0" />
+      <Item value="Cost" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="1" />
+      <Item value="Replace`0" priority="0" />
+      <Item value="ToLower`0" priority="13" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.ProductsRepository">
+      <Item value="GetAll`0" priority="0" />
+      <Item value="GetByModelNo`0" priority="1" />
+      <Item value="GetBySku`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.EntityRef`1">
+      <Item value="Entity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.Order">
+      <Item value="CreatedDate" priority="0" />
+      <Item value="PkId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.MenuTypes">
+      <Item value="ID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.Menu">
+      <Item value="ID" priority="0" />
+      <Item value="MenuTypeID" priority="0" />
+      <Item value="ParentID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.Inventory">
+      <Item value="Pkid" priority="0" />
+      <Item value="ModelNo" priority="1" />
+      <Item value="Qty" priority="0" />
+      <Item value="Cost" priority="1" />
+      <Item value="JournalId" priority="0" />
+      <Item value="IsActive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.Category">
+      <Item value="Pkid" priority="1" />
+      <Item value="Name" priority="2" />
+      <Item value="Desc" priority="0" />
+      <Item value="IsActive" priority="1" />
+      <Item value="CreatedDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="TextMode" priority="2" />
+      <Item value="Columns" priority="0" />
+      <Item value="Enabled" priority="1" />
+      <Item value="Text" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Text" priority="0" />
+      <Item value="Checked" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ImageButton">
+      <Item value="ImageUrl" priority="1" />
+      <Item value="AlternateText" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDateTime`0" priority="1" />
+      <Item value="ToSByte`0" priority="0" />
+      <Item value="ToDouble`0" priority="5" />
+      <Item value="ToInt16`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.CategoryRepository">
+      <Item value="Create`0" priority="0" />
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="0" />
+      <Item value="Empty" priority="1" />
+      <Item value="IsNullOrEmpty`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="0" />
+      <Item value="ClientID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.DataBinder">
+      <Item value="Eval`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="DataItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="3" />
+      <Item value="SelectedIndex" priority="5" />
+      <Item value="DataTextField" priority="1" />
+      <Item value="Items" priority="3" />
+      <Item value="SelectedItem" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Clear`0" priority="1" />
+      <Item value="Add`0" priority="2" />
+      <Item value="Insert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="1" />
+      <Item value="AddDays`0" priority="0" />
+      <Item value="AddMonths`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Linq.Mapping.AutoSync">
+      <Item value="OnInsert" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.MenuTypesRepository">
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="ClientID" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.WebControls.Button">
+      <Item value="DisabledCssClass" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Text" priority="0" />
+      <Item value="CommandName" priority="1" />
+      <Item value="CommandArgument" priority="1" />
+      <Item value="Enabled" priority="0" />
+      <Item value="id" priority="0" />
+      <Item value="CssClass" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListControl">
+      <Item value="DataValueField" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="ImageUrl" priority="4" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListView">
+      <Item value="ItemTemplate" priority="0" />
+      <Item value="Items" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="1" />
+      <Item value="Count" priority="3" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="FindIndex`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="AsEnumerable`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.UI.usercontrols.curd.OrderDetailsDS">
+      <Item value="ImgUrl" priority="0" />
+      <Item value="ModelVal" priority="0" />
+      <Item value="ItemCost" priority="0" />
+      <Item value="ItemQty" priority="0" />
+      <Item value="ItemComment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Utilities.OrderDetailsDs">
+      <Item value="ImgUrl" priority="0" />
+      <Item value="ModelVal" priority="0" />
+      <Item value="ItemCost" priority="0" />
+      <Item value="ItemQty" priority="0" />
+      <Item value="ItemComment" priority="0" />
+      <Item value="IsActive" priority="0" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.UpdatePanel">
+      <Item value="ContentTemplate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewCommandEventArgs">
+      <Item value="Item" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewDataItem">
+      <Item value="DataItemIndex" priority="1" />
+      <Item value="DataItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HiddenField">
+      <Item value="Value" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewItem">
+      <Item value="FindControl`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.InventoryRepository">
+      <Item value="GetByModelNo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="OrderBy`2" priority="3" />
+      <Item value="GroupBy`4" priority="4" />
+      <Item value="Select`2" priority="4" />
+      <Item value="Sum`1" priority="2" />
+      <Item value="Where`1" priority="3" />
+      <Item value="OfType`1" priority="0" />
+      <Item value="OrderByDescending`2" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="SingleOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="NavigateUrl" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlAnchor">
+      <Item value="HRef" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="0" />
+      <Item value="AppendFormat`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="AppendLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Blue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.UI.usercontrols.utilities.LoadAppDataFile">
+      <Item value="SelectedFile" priority="0" />
+      <Item value="SelectedFilePath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IGrouping`2">
+      <Item value="Key" priority="1" />
+      <Item value="Sum`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="Select`2" priority="2" />
+      <Item value="OrderByDescending`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.AmazonTransactionsV2Repository">
+      <Item value="CalculateVAT`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Calendar">
+      <Item value="SelectedDate" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.TempVatCalc">
+      <Item value="Orderid" priority="2" />
+      <Item value="IsActive" priority="0" />
+      <Item value="Purchaseddate" priority="3" />
+      <Item value="Settlementid" priority="0" />
+      <Item value="NetAmount" priority="1" />
+      <Item value="VatAmt" priority="1" />
+      <Item value="ReclaimVatAmt" priority="0" />
+      <Item value="TotalAmount" priority="0" />
+      <Item value="Transactiontype" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.Interface.TempVatCalcRepository">
+      <Item value="Create`0" priority="0" />
+      <Item value="DeleteAll`0" priority="0" />
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Abs`0" priority="1" />
+      <Item value="Round`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewItemEventArgs">
+      <Item value="Item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RangeValidator">
+      <Item value="MinimumValue" priority="0" />
+      <Item value="MaximumValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.VATSubmissionDetail">
+      <Item value="Orderid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.VATSubmissionRepository">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AjaxControlToolkit.CalendarExtender">
+      <Item value="SelectedDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.TempVatCalcRepository">
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Repository.VATSubmissionDetailRepository">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TrendITech.Core.Entities.VATSubmission">
+      <Item value="PurchaseCost" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,82 @@
+﻿/*SPECIFIC STYLE
+this stylesheer styles the common elements of the entire site
+*/
+body{}
+
+/*global elements*/
+
+.button{font-family:Georgia, Arial, Sans;display:inline-block;color:#fff;padding:3px 5px;cursor:pointer;position:relative;
+-moz-border-radius: 4px;
+-webkit-border-radius:4px;
+border-radius: 4px;
+behavior: url(/js/pie/PIE.htc);
+}
+
+.button.pinkBtn{background:#f66087 url(../furniture/shared/pinkBtnBack.png) left bottom repeat-x;border:1px solid #c64063;}
+.button.blueBtn{background:#63b9f9 url(../furniture/shared/blueBtnBack.png) left bottom repeat-x;border:1px solid #408ec7;}
+
+
+.wrapper{;background:#F6F6F6;}
+  #topSection{background:#666 url(../furniture/shared/foldedCorner.png) left bottom no-repeat;padding:10px 0px 5px 320px;}
+    #topSection #social{background:none;width:210px;float:left;height:30px;margin:0 10px;}
+    #topSection #login{background:#666;width:120px;float:left;margin:0 10px;}
+      #topSection #login ul{width:100%;padding-top:5px;}
+        #topSection #login ul li{float:left;}
+        #topSection #login ul li#loginBtn a{display:block;width:52px;height:29px;background:url(../furniture/shared/loginBtn.png) no-repeat;}
+        #topSection #login ul li#registerBtn a{display:block;width:66px;height:29px;background:url(../furniture/shared/registerBtn.png) no-repeat;}
+        
+   #topSection #login.loggedIn{color:#fff;}
+   #topSection #login.loggedIn #logMeOut a{color:#fff;font-size:1em;border-bottom: 2px solid #6AD99E;}
+  
+  #topSection #search{background:#666;width:240px;float:left;}
+      #topSection #search p.formControl{margin:0;padding:0;}
+        #topSection #search input.searchInputField{float:left;background:#4d4d4d;border:4px solid #767676;margin-top:4px;color:#fff;
+                            -moz-border-radius: 7px;
+                            -webkit-border-radius:7px;
+                            border-radius: 7px;
+        }
+        #topSection #search input#searchSubmit{float:right;width:75px;}
+  #header{background:#f6f6f6;border-bottom:1px dotted #d8d8d8;position:relative;padding:5px 0;}
+    #header h1{width:410px;height:89px;background:url(../furniture/shared/siteLogo.png) no-repeat;margin:0 0 0 10px;}
+    #header a#registerBadge{display:block;width:128px;height:130px;background:url(../furniture/shared/registerBadge.png) no-repeat;position:absolute;top:10px;left:810px;}
+    #header a#upgradeBadge{display:block;width:128px;height:130px;background:url(../furniture/shared/upgradeBadge.png) no-repeat;position:absolute;top:10px;left:810px;}
+  
+  
+  
+  #mainNav{padding:12px 10px 10px 10px;background:#fff;border-bottom:1px dotted #d8d8d8;font-family:arial, helvetica, sans-serif;}
+    #mainNav ul {}
+      #mainNav ul li{}
+        #mainNav ul li a.active {color: #222;border-bottom:2px solid #6ad99e;padding-bottom:2px;}
+  #content{background:#fff;}
+    #breadCrumbs{padding:0;background:#fff;float:left;}
+      #breadCrumbs ul{width:100%;}
+        #breadCrumbs ul li{float:left;margin-right:5px;font-size:0.8em;color:#666;}
+        #breadCrumbs ul li a{color:#666666;}
+    #content h2, #content h3{border-bottom:1px dotted #d8d8d8;padding:5px 0;margin-bottom:5px;}	
+    #content.twoCol .contentCol_2 h3{color:#666;font-size:1.2em;padding-top:20px;background-color:#fff;background-position:240px 8px;background-repeat: no-repeat;}
+    
+    #content.twoCol .contentCol_1{margin-right:25px;padding-top:0px;}
+    #content.twoCol .contentCol_2{position:relative;top:-30px;}
+      #content.twoCol #subscribePanel {}
+        #content.twoCol #subscribePanel a{display:block;width:275px;height:49px;background:url(../furniture/shared/newsletterBanner.png) no-repeat;}
+    
+    #content.oneCol #breadCrumbs{float:none;}
+    #content.oneCol .contentCol_1{}
+    #content.oneCol .contentCol_2{}
+  
+  #footer{background:#666;background:#666 url(../furniture/shared/foldedCorner.png) left bottom no-repeat;padding:20px 20px 30px 10px;}
+    #footer h2{float:left;width:130px;height:52px;background:url(../furniture/shared/footerLogo.png) no-repeat;margin:0 90px 0 10px;}
+    #footer .footBlock{float:left;margin:37px 40px 0 0;}
+      #footer .footBlock h3, #footer .footBlock a{color:#f6f6f6;text-shadow: 2px 2px 2px #000;}
+      #footer .footBlock h3{font-size:0.7em;}
+      #footer .footBlock li{margin-top:5px;}
+        #footer .footBlock li a{font-size:0.75em;font-weight:bold;}
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

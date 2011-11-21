@@ -1,0 +1,23 @@
+/*BASIC STRUCTURE*/
+/*just a default value - to be changed on site global stylesheet
+this stylesheet defines the overall site structure
+*/
+
+/*reset the main BODY parameters*/
+body{margin:0;padding:0;background:#fff;text-align:center;}
+
+/*positions basic elements*/
+.wrapper{width:948px;text-align:left;margin:0 auto 10px auto;}
+	#topSection{width:628px;}
+	#header{width:100%;}
+	
+	#mainNav{width:928px}
+		#mainNav ul {width:100%;}
+		#mainNav ul li{float:left; margin-right:20px;}
+	#content{width:938px;padding:10px 0 10px 10px;}
+		#breadCrumbs{width:638px;}
+		#content.twoCol .contentCol_1{width:638px;float:left;}
+		#content.twoCol .contentCol_2{width:275px;float:left;}
+		#content.oneCol .contentCol_1{width:100%;}
+		#content.oneCol .contentCol_2{width:0}
+	#footer{width:918px;}

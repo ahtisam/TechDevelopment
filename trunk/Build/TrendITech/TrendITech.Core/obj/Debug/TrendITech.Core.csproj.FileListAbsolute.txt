@@ -1,0 +1,8 @@
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\bin\Debug\TrendITech.Core.dll
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\bin\Debug\TrendITech.Core.pdb
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\obj\Debug\TrendITech.Core.dll
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\obj\Debug\TrendITech.Core.pdb
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\bin\Debug\log4net.dll
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\bin\Debug\TrendITech.Data.dll
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Core\bin\Debug\TrendITech.Data.pdb

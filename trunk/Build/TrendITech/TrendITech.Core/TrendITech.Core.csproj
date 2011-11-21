@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80F8C718-70E0-488B-B4E1-C3FBB0AD3558}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrendITech.Core</RootNamespace>
+    <AssemblyName>TrendITech.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\VATSubmission.cs" />
+    <Compile Include="Entities\TempVatCalc.cs" />
+    <Compile Include="Entities\VATSubmissionDetail.cs" />
+    <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Repository\Interface\IInventoryRepository.cs" />
+    <Compile Include="Repository\Interface\IMenuRepository.cs" />
+    <Compile Include="Repository\Interface\IMenuTypesRepository.cs" />
+    <Compile Include="Repository\Interface\IOrderItemsDetailRepository.cs" />
+    <Compile Include="Repository\Interface\IOrderRepository.cs" />
+    <Compile Include="Repository\AmazonTransactionsV2Repository.cs" />
+    <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Menu.cs" />
+    <Compile Include="Entities\MenuTypes.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Entities\OrderItemsDetail.cs" />
+    <Compile Include="Entities\Products.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="Repository\Interface\ICategoryRepository.cs" />
+    <Compile Include="Repository\Interface\Base\IBaseRepository.cs" />
+    <Compile Include="Repository\Interface\IProductsRepository.cs" />
+    <Compile Include="Repository\Interface\ITempVatCalcRepository.cs" />
+    <Compile Include="Repository\Interface\IVATSubmissionRepository.cs" />
+    <Compile Include="Repository\Interface\IVATSubmissionDetailRepository.cs" />
+    <Compile Include="Repository\TempVatCalcRepository.cs" />
+    <Compile Include="Repository\InventoryRepository.cs" />
+    <Compile Include="Repository\MenuRepository.cs" />
+    <Compile Include="Repository\MenuTypesRepository.cs" />
+    <Compile Include="Repository\OrderItemsDetailRepository.cs" />
+    <Compile Include="Repository\OrderRepository.cs" />
+    <Compile Include="Repository\ProductsRepository.cs" />
+    <Compile Include="Repository\VATSubmissionDetailRepository.cs" />
+    <Compile Include="Repository\VATSubmissionRepository.cs" />
+    <Compile Include="Utilities\Csv.cs" />
+    <Compile Include="Entities\AmazonTransactionsV2.cs" />
+    <Compile Include="Entities\Inventory.cs" />
+    <Compile Include="Entities\Interface\IAmamzonTransactionV2Int.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Interface\IAmazonTransactionV2Repostory.cs" />
+    <Compile Include="Utilities\DebuggerWriter.cs" />
+    <Compile Include="Utilities\LogUtility.cs" />
+    <Compile Include="Utilities\OrderDetailsDs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\logs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrendITech.Data\TrendITech.Data.csproj">
+      <Project>{240CD456-F90C-44DC-AC70-B202CC481ACF}</Project>
+      <Name>TrendITech.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

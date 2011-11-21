@@ -1,0 +1,10 @@
+/*
+specific style for the component
+*/
+
+#videoPanel{}
+	#videoPanel h3{background-image:url(/furniture/shared/playIcon.png);background-position:240px 15px !important;}
+		#videoPanel a{display:block;width:275px;height:154px;}
+
+
+

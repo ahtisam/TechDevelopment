@@ -1,0 +1,11 @@
+/*
+specific style for the component
+*/
+
+#commentsPanel{background:#f6f6f6 url(/furniture/shared/foldedCorner.png) left bottom no-repeat;padding-bottom:20px;}
+	#commentsPanel h3{margin-top:20px;padding:13px 20px 30px 20px !important;color:#fff !important;background:#7a7a7a url(/furniture/resources/blackGradient.png) left bottom no-repeat !important;border:none;}
+	#commentsPanel p{color:#ef557c;padding:10px 10px 30px 10px;}
+	#commentsPanel em{display:block;}
+
+
+

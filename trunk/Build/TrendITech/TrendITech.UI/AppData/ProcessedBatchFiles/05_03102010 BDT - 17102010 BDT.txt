@@ -1,0 +1,10 @@
+settlement-id	settlement-start-date	settlement-end-date	deposit-date	total-amount	currency	transaction-type	order-id	merchant-order-id	adjustment-id	shipment-id	marketplace-name	amount-type	amount-description	amount	fulfillment-id	posted-date	posted-date-time	order-item-code	merchant-order-item-id	merchant-adjustment-item-id	sku	quantity-purchased
+6101355102	03/10/2010 01:43:14 GMT	17/10/2010 01:47:46 GMT	19/10/2010 01:47:46 GMT	47.98	GBP																	
+6101355102						Order	203-2778775-2593962			DKtdhyGLR	Amazon.co.uk	ItemPrice	Principal	38.00		07/10/2010	07/10/2010 09:05:06 GMT	32854154221379			TQ-VXHB-YDPU	1
+6101355102						Order	203-2778775-2593962			DKtdhyGLR	Amazon.co.uk	ItemPrice	Shipping	4.05		07/10/2010	07/10/2010 09:05:06 GMT	32854154221379			TQ-VXHB-YDPU	1
+6101355102						Order	203-2778775-2593962			DKtdhyGLR	Amazon.co.uk	ItemFees	ShippingHB	-0.70		07/10/2010	07/10/2010 09:05:06 GMT	32854154221379			TQ-VXHB-YDPU	1
+6101355102						Order	203-2778775-2593962			DKtdhyGLR	Amazon.co.uk	ItemFees	Commission	-6.56		07/10/2010	07/10/2010 09:05:06 GMT	32854154221379			TQ-VXHB-YDPU	1
+6101355102						Order	026-5371150-9379544			DKBs4vLKR	Amazon.co.uk	ItemPrice	Principal	12.00		11/10/2010	11/10/2010 15:14:47 GMT	54193020392427			H8-I2G6-RZRL	1
+6101355102						Order	026-5371150-9379544			DKBs4vLKR	Amazon.co.uk	ItemPrice	Shipping	3.94		11/10/2010	11/10/2010 15:14:47 GMT	54193020392427			H8-I2G6-RZRL	1
+6101355102						Order	026-5371150-9379544			DKBs4vLKR	Amazon.co.uk	ItemFees	ShippingHB	-0.68		11/10/2010	11/10/2010 15:14:47 GMT	54193020392427			H8-I2G6-RZRL	1
+6101355102						Order	026-5371150-9379544			DKBs4vLKR	Amazon.co.uk	ItemFees	Commission	-2.07		11/10/2010	11/10/2010 15:14:47 GMT	54193020392427			H8-I2G6-RZRL	1

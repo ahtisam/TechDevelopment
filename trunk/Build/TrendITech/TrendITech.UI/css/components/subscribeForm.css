@@ -1,0 +1,13 @@
+/*
+specific style for the component
+*/
+
+#subscribeForm{background:#ffd105 url(/furniture/shared/foldedCorner.png) left bottom no-repeat ;padding:10px;margin-top:20px;width:93%;}
+#subscribeForm h3{font-size:1.6em !important;color:#fff !important;background:#ffd105 !important;border:none !important;padding:0 !important;margin:0 !important;float:left;width:100%;}
+#subscribeForm label{display:none;}
+#subscribeForm p{color:#fff;font-weight:bold;float:left;width:100%;}
+#subscribeForm p.formControl{width:65%;float:left;margin:0 0 10px 0;}
+#subscribeForm p.formControl input{width:100%;background:#f6e09b;border:none;height:23px;color:#666;font-style:italic;}
+#subscribeForm p.formControl.submitBtn {width:30%;float:right;}
+#subscribeForm p.formControl.submitBtn .button{background:#d19e00;font-weight:bold;height:25px;font-style:normal;color:#fff;}
+

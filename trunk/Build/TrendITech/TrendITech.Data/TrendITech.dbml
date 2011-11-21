@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="trenditech" Class="TrendITechDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MACDOWS1\SQLEXPRESS;Initial Catalog=trenditech;Integrated Security=True" SettingsObjectName="TrendITech.Data.Properties.Settings" SettingsPropertyName="trenditechConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.amazon_transactions_v2" Member="amazon_transactions_v2s">
+    <Type Name="amazon_transactions_v2">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="settlementid" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="settlementstartdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="settlementenddate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="depositdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="totalamount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="currency" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="transactiontype" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="orderid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="merchantorderid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="adjustmentid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="shipmentid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="marketplacename" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="amounttype" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="amountdescription" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="amount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="fulfillmentid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="posteddate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="posteddatetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="orderitemcode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="merchantorderitemid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="merchantadjustmentitemid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sku" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="quantitypurchased" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="promotionid" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vatsubmission_detail" Member="vatsubmission_details">
+    <Type Name="vatsubmission_detail">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="vatsubmissionfkid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="settlementid" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="transactiontype" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="orderid" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="saleprice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="amazonfee" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="vatamt" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="reclaimvatamt" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="purchasecost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="netamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="fullfilmentby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="purchaseddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="vatsubmission_vatsubmission_detail" Member="vatsubmission" ThisKey="vatsubmissionfkid" OtherKey="pkid" Type="vatsubmission" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.categorys" Member="categories">
+    <Type Name="category">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="category_product" Member="products" ThisKey="pkid" OtherKey="categoryidfk" Type="product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.inventory" Member="inventories">
+    <Type Name="inventory">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="model_no" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cost" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Column Name="journalid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.menu" Member="menus">
+    <Type Name="menu">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="parentid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="menutypeid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="url" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="menutype_menu" Member="menutype" ThisKey="menutypeid" OtherKey="pkid" Type="menutype" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.menutypes" Member="menutypes">
+    <Type Name="menutype">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="menutype_menu" Member="menus" ThisKey="pkid" OtherKey="menutypeid" Type="menu" />
+    </Type>
+  </Table>
+  <Table Name="dbo.order_details" Member="order_details">
+    <Type Name="order_detail">
+      <Column Name="pkd" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="order_fkid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="product_fkid" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="unitqty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="unitprice" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="note_ref" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="shippedunitqty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="shippedunitprice" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="shippedunitcost" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="receivedunitqty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="order_order_detail" Member="order" ThisKey="order_fkid" OtherKey="pkid" Type="order" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.orders" Member="orders">
+    <Type Name="order">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ordercreateddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="orderexpecteddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="totalamount" Type="System.Decimal" DbType="Decimal(8,2) NOT NULL" CanBeNull="false" />
+      <Column Name="totalitems" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="orderstatus_fkid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="note_ref" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="shippingno" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="shippmentthroughbank" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="bankcharges" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="freight" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="paidvatamount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="shippingdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="totalshippingitems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalshippingamount" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+      <Column Name="advance" Type="System.Decimal" DbType="Decimal(10,2) NOT NULL" CanBeNull="false" />
+      <Column Name="advancebankcharges" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="invoiceno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="orderhistory" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="receiveditems" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="receivedamount" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="receiveddate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="order_order_detail" Member="order_details" ThisKey="pkid" OtherKey="order_fkid" Type="order_detail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.products" Member="products">
+    <Type Name="product">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="categoryidfk" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="model_no" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="size" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="cost" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="picture_url" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="amazonsku" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="category_product" Member="category" ThisKey="categoryidfk" OtherKey="pkid" Type="category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tempvat" Member="tempvats">
+    <Type Name="tempvat">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="settlementid" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="transactiontype" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="orderid" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="saleprice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="amazonfee" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="vatamt" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="reclaimvatamt" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="purchasecost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="netamount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="fullfilmentby" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="purchaseddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vatsubmission" Member="vatsubmissions">
+    <Type Name="vatsubmission">
+      <Column Name="pkid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="startdate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="enddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="vatpercentage" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalitemsold" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="totalsaleamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalfee" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="vatamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalitemreclaim" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="reclaimvatamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="totalpurchasedcost" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="netamount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="vatpaidtohmrevenue" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="isactive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="createddate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="vatsubmission_vatsubmission_detail" Member="vatsubmission_details" ThisKey="pkid" OtherKey="vatsubmissionfkid" Type="vatsubmission_detail" />
+    </Type>
+  </Table>
+</Database>

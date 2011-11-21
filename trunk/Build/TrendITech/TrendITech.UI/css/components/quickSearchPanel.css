@@ -1,0 +1,13 @@
+ #quickSearchPanel{background:#f6f6f6;}
+	 #quickSearchPanel h3{background-image:url(/furniture/resources/magGlassIcon.png);}
+	 #quickSearchPanel p{padding-left:25px;}
+	 #quickSearchPanel #categories .categorySearch{text-transform:uppercase;color:#999;font-weight:bold;display:inline-block;padding-left:40px;background-image:url(/furniture/resources/quicksearchArrowSprite.png);background-repeat:no-repeat;background-position:25px -17px;}
+	 #quickSearchPanel #categories .categorySearch.expanded{background-position:25px 2px;}
+		 #quickSearchPanel #categories ul{padding-left:40px;}
+		 #quickSearchPanel #categories ul li{margin:7px 0;}
+			 #quickSearchPanel #categories ul li a{color:#f2527c;}
+			 #quickSearchPanel #categories ul li span{color:#fff;display:inline-block;background:#9e9e9e;padding:1px 5px;font-size:0.85em;margin-left:7px;
+				-moz-border-radius: 10px;
+				-webkit-border-radius:10px;
+				border-radius: 10px;
+			}

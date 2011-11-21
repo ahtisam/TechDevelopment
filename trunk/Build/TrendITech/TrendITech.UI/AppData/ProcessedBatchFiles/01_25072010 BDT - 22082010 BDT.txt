@@ -1,0 +1,6 @@
+settlement-id	settlement-start-date	settlement-end-date	deposit-date	total-amount	currency	transaction-type	order-id	merchant-order-id	adjustment-id	shipment-id	marketplace-name	amount-type	amount-description	amount	fulfillment-id	posted-date	posted-date-time	order-item-code	merchant-order-item-id	merchant-adjustment-item-id	sku	quantity-purchased
+6090932342	25/07/2010 02:43:05 GMT	22/08/2010 02:47:39 GMT	24/08/2010 02:47:39 GMT	11.94	GBP																	
+6090932342						Order	026-1794585-6658759				Amazon.co.uk	ItemPrice	Shipping	3.94		16/08/2010	16/08/2010 11:34:45 GMT	24010394724995			H8-I2G6-RZRL	1
+6090932342						Order	026-1794585-6658759				Amazon.co.uk	ItemPrice	Principal	10.50		16/08/2010	16/08/2010 11:34:45 GMT	24010394724995			H8-I2G6-RZRL	1
+6090932342						Order	026-1794585-6658759				Amazon.co.uk	ItemFees	Commission	-1.82		16/08/2010	16/08/2010 11:34:45 GMT	24010394724995			H8-I2G6-RZRL	1
+6090932342						Order	026-1794585-6658759				Amazon.co.uk	ItemFees	ShippingHB	-0.68		16/08/2010	16/08/2010 11:34:45 GMT	24010394724995			H8-I2G6-RZRL	1

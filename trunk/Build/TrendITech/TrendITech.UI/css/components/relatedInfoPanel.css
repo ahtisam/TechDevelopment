@@ -1,0 +1,5 @@
+.relatedInfoPanel{width:100%;}
+	.relatedInfoPanel h3{background-image:url(/furniture/shared/notepadIcon.png);margin-bottom:10px}
+	.relatedInfoPanel h3 a{color:#666666;}
+	.relatedInfoPanel img{float:left;margin-right:10px;}
+	.relatedInfoPanel h4{clear:left;color:#f2527c;padding:10px 0 0  0;font-size:1em;font-weight:bold;}

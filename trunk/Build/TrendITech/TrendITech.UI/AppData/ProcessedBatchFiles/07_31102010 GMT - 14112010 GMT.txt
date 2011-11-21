@@ -1,0 +1,14 @@
+settlement-id	settlement-start-date	settlement-end-date	deposit-date	total-amount	currency	transaction-type	order-id	merchant-order-id	adjustment-id	shipment-id	marketplace-name	amount-type	amount-description	amount	fulfillment-id	posted-date	posted-date-time	order-item-code	merchant-order-item-id	merchant-adjustment-item-id	sku	quantity-purchased
+6105894822	31/10/2010 01:44:19 GMT	14/11/2010 01:47:05 GMT	16/11/2010 01:47:05 GMT	42.88	GBP																	
+6105894822						Order	026-4315820-1933916			D21m7MLzR	Amazon.co.uk	ItemPrice	Principal	12.00		03/11/2010	03/11/2010 16:53:45 GMT	05740016846107			DE-D408-J88K	1
+6105894822						Order	026-4315820-1933916			D21m7MLzR	Amazon.co.uk	ItemPrice	Shipping	3.95		03/11/2010	03/11/2010 16:53:45 GMT	05740016846107			DE-D408-J88K	1
+6105894822						Order	026-4315820-1933916			D21m7MLzR	Amazon.co.uk	ItemFees	ShippingHB	-0.68		03/11/2010	03/11/2010 16:53:45 GMT	05740016846107			DE-D408-J88K	1
+6105894822						Order	026-4315820-1933916			D21m7MLzR	Amazon.co.uk	ItemFees	Commission	-2.07		03/11/2010	03/11/2010 16:53:45 GMT	05740016846107			DE-D408-J88K	1
+6105894822						Order	203-9173798-1445948			DKRcrLL0R	Amazon.co.uk	ItemPrice	Principal	14.00		03/11/2010	03/11/2010 16:54:39 GMT	53967154101923			JE-KKO6-RED9	1
+6105894822						Order	203-9173798-1445948			DKRcrLL0R	Amazon.co.uk	ItemPrice	Shipping	3.94		03/11/2010	03/11/2010 16:54:39 GMT	53967154101923			JE-KKO6-RED9	1
+6105894822						Order	203-9173798-1445948			DKRcrLL0R	Amazon.co.uk	ItemFees	ShippingHB	-0.68		03/11/2010	03/11/2010 16:54:39 GMT	53967154101923			JE-KKO6-RED9	1
+6105894822						Order	203-9173798-1445948			DKRcrLL0R	Amazon.co.uk	ItemFees	Commission	-2.42		03/11/2010	03/11/2010 16:54:39 GMT	53967154101923			JE-KKO6-RED9	1
+6105894822						Order	203-3904325-9608329			Dpf21qLNR	Amazon.co.uk	ItemPrice	Principal	14.00		10/11/2010	10/11/2010 15:22:05 GMT	31880392708219			JE-KKO6-RED9	1
+6105894822						Order	203-3904325-9608329			Dpf21qLNR	Amazon.co.uk	ItemPrice	Shipping	3.94		10/11/2010	10/11/2010 15:22:05 GMT	31880392708219			JE-KKO6-RED9	1
+6105894822						Order	203-3904325-9608329			Dpf21qLNR	Amazon.co.uk	ItemFees	ShippingHB	-0.68		10/11/2010	10/11/2010 15:22:05 GMT	31880392708219			JE-KKO6-RED9	1
+6105894822						Order	203-3904325-9608329			Dpf21qLNR	Amazon.co.uk	ItemFees	Commission	-2.42		10/11/2010	10/11/2010 15:22:05 GMT	31880392708219			JE-KKO6-RED9	1

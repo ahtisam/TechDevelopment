@@ -1,0 +1,6 @@
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Data\bin\Debug\TrendITech.Data.dll
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Data\bin\Debug\TrendITech.Data.pdb
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Data\obj\Debug\TrendITech.Data.dll
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Data\obj\Debug\TrendITech.Data.pdb
+C:\SubVersion\TrendITech\trunk\Build\TrendITech\TrendITech.Data\bin\Debug\TrendITech.Data.dll.config
